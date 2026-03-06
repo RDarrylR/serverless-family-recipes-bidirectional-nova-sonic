@@ -1,0 +1,13 @@
+# Copy this to terraform.tfvars and fill in your values
+# terraform.tfvars is gitignored - do not commit it
+
+# Bedrock Knowledge Base ID for recipe search (required)
+knowledge_base_id = ""
+
+# AgentCore Runtime ARN (leave empty for first Terraform apply, fill in after make create-agent)
+agent_runtime_arn = ""
+
+# Cognito callback URLs (add your CloudFront domain after first deploy)
+cognito_callback_urls = [
+  "http://localhost:5173"
+]

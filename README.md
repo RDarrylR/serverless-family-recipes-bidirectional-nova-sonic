@@ -222,7 +222,7 @@ bidir_streaming/
 
 ## Future: Combining with the Text-Based Assistant
 
-This voice assistant and the [text-based Serverless Recipe Assistant](https://darryl-ruggles.cloud/serverless-recipe-assistant-with-agentcore-and-strands/) share the same Bedrock Knowledge Base and similar tool implementations, but have separate infrastructure and deployment pipelines. The plan is to merge them into a single app with both input modes - text chat via SSE/Lambda and voice via WebSocket/AgentCore - behind a single CloudFront distribution with shared Cognito auth. See the "Converging Voice and Text" section in the [blog post](https://darryl-ruggles.cloud/nova-2-sonic-bi-directional-voice-controlled-family-recipe-assistant/) for details.
+This voice assistant and the [text-based Serverless Recipe Assistant](https://darryl-ruggles.cloud/serverless-recipe-assistant-with-agentcore-and-strands/) share the same Bedrock Knowledge Base and similar tool implementations, but have separate infrastructure and deployment pipelines. The plan is to merge them into a single app with both input modes - text chat via SSE/Lambda and voice via WebSocket/AgentCore - behind a single CloudFront distribution with shared Cognito auth. See the "Converging Voice and Text" section in the [blog post](https://darryl-ruggles.cloud/bi-directional-voice-controlled-recipe-assistant-with-nova-sonic-2/) for details.
 
 ## Related
 

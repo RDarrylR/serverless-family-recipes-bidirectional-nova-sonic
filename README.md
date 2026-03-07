@@ -2,7 +2,7 @@
 
 A real-time voice agent that uses **Strands BidiAgent** and **Amazon Nova Sonic v2** for bidirectional audio streaming with tool use. Search your family recipes, look up nutrition, set cooking timers, and convert units - all by voice.
 
-Built as a companion demo for the blog post: [Bi-directional Voice-Controlled Recipe Assistant with Nova Sonic v2](https://darryl-ruggles.cloud/bi-directional-voice-recipe-assistant-with-nova-2-sonic/)
+Built as a companion demo for the blog post: [Bi-directional Voice-Controlled Recipe Assistant with Nova Sonic v2](https://darryl-ruggles.cloud/bi-directional-voice-controlled-recipe-assistant-with-nova-sonic-2/)
 
 ## What It Does
 
